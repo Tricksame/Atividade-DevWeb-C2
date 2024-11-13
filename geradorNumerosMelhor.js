@@ -1,3 +1,4 @@
+//Original do Professor
 function gerarAleatoriosProfessor() {
   const vetor = [];
 
@@ -14,10 +15,10 @@ function gerarAleatoriosProfessor() {
 console.log("Números profesor: ", gerarAleatoriosProfessor());
 
 
-
+//Melhorado
 function gerarAleatoriosMelhor() {
   const resultado = [];
-  //Array de 60 posições, com false em todas elas, para marcar quais números já foram escolhidos.
+  //Array de 60 posições com false em todas elas, para marcar quais números já foram escolhidos.
   const escolhidos = Array(60).fill(false);
 
   while (resultado.length < 6) {
